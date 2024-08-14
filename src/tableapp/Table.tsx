@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./table.css";
+import "./Table.css";
 import { Link } from "react-router-dom";
 import veroLogo from "/verologo1pb.png";
 import itemsData1 from '../type/item1.json';
