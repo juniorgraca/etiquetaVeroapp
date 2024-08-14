@@ -1,0 +1,155 @@
+@media print {
+  @page {
+    size: A4 landscape; /* Define a página como A4 na orientação horizontal */
+    margin: 5mm; /* Ajuste as margens conforme necessário */
+  }
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .sect1, .sect2, .textarea {
+    page-break-inside: avoid;
+  }
+}
+
+
+
+
+.btnOnClick{
+  background-color: #ff6c98;
+  padding: 7px 50px;
+  border-radius: 3px;
+  border: none;
+  margin: 0px 10px;
+  margin-top: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+}
+
+.btnOnClick:hover{
+  background-color: #ecb9c9;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  cursor: pointer;
+
+}
+
+h1{
+display: flexbox;
+
+}
+
+.textarea{
+  width: auto;
+}
+.pretext{
+  border-bottom: 1px solid black;
+}
+
+p{
+  width: 370px;
+  margin: 10px 3px;
+ 
+}
+.textp{
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.logoVero{
+  margin: 1px 1px;
+}
+
+.logoarea{
+  
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+
+}
+.info-section{
+  margin: 0 auto;
+ display: ruby;
+ 
+}
+input{
+  background-color: #ff6c98;
+  border-radius: 1px;
+  border: none;
+  padding: 5px 5px;
+  font-size: 0.9rem;
+  color: white;
+  width: 90%;
+}
+h1{
+  font-size: 1.3rem;
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 15px 30px;
+}
+
+.area-dados{
+  text-align: center;
+  border: 1px solid #ff6c98;
+  padding: 30px 30px;
+  border-radius: 10px;
+  background-color: #f7ecef;
+  
+}
+
+b{
+
+  width: 100%;
+  display: flex;
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+section{
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.sect1{
+  
+  border-radius: 1px;
+  border: 1px solid black;
+  display: flex;
+  margin: 5px 10px;
+  width: 50%;
+}
+
+
+.sect2{
+  border-radius: 1px;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  margin: 5px 10px;
+}
+
+.texdescr{
+  height: 64px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.map{
+  margin-left: 3px;
+}

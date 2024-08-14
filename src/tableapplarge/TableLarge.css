@@ -1,0 +1,84 @@
+@media print {
+  @page {
+    size: A4 landscape; /* Define a página como A4 na orientação horizontal */
+    margin: 10mm; /* Ajuste as margens conforme necessário */
+  }
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+.itemCod{
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.itemName{
+  font-size: 1.9rem;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.itemArma{
+  font-size: 1.9rem;
+ 
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.itemMap{
+  font-size: 1.9rem;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.secLarge{
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.bodySecLarge{
+  border-radius: 1px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  margin: 5px 10px;
+}
+
+.textLarge{
+  width: auto;
+}
+
+.itemText{
+  border-bottom: 1px solid black;
+}
+
+
+.plarge{
+  width: 100vh; 
+  margin: 8px 3px;
+ 
+}
+
+.logoVero{
+  margin: 1px 1px;
+}
+
+.logoAreaimg{
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 30%;
+  justify-content: center;
+
+}

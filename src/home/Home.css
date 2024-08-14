@@ -1,0 +1,83 @@
+.homeMain{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin: 10px auto;
+}
+
+.logoandselect{
+  width: 440px;
+  display: flex;
+  margin-bottom: 35px;
+
+}
+
+.logoandselectArea{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+select{
+  border-radius: 5px;
+  font: 1rem;
+  border: 1px solid black;
+  padding: 7px 3px;
+}
+
+.itemInfoInitial{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+}
+
+.containetTxt{
+  width: 440px;
+}
+
+.initialMsgMiddle{
+ 
+}
+
+.Welcometxt{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.initalMsgSelec{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 2px;
+
+}
+
+.btnindex{
+  width: 100%;
+  background-color: #ff6c98;
+  padding: 12px 15px;
+  border-radius: 3px;
+  border: none;
+  margin: 0px 3px;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+}
+
+.btnindex:hover{
+  background-color: #ecb9c9;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  cursor: pointer;
+
+}
+.initaltextInfo{
+  font: 1.2rem;
+  margin-top: 3px;;
+}
+
+.fundoSelec{
+  text-align: right;
+
+  width: 100%;
+}
