@@ -86,7 +86,6 @@ const Tabletls: React.FC = () => {
       );
 
       setDados(prevDados => [...prevDados, ...itens]);
-
       // Reseta os campos após adicionar o item
       setCodigo('');
       setName('');

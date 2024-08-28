@@ -35,11 +35,10 @@ select{
 
 .containetTxt{
   width: 440px;
+  margin: 0 auto;
 }
 
-.initialMsgMiddle{
- 
-}
+
 
 .Welcometxt{
   font-size: 2rem;
@@ -49,20 +48,24 @@ select{
   font-size: 1rem;
   font-weight: 400;
   margin-right: 2px;
+}
+.powertext{
+  font-size: 0.7rem;
+
 
 }
-
 .btnindex{
   width: 100%;
   background-color: #ff6c98;
   padding: 12px 15px;
-  border-radius: 3px;
+  border-radius: 10px;
   border: none;
   margin: 0px 3px;
   margin-top: 15px;
   font-size: 0.8rem;
   font-weight: 600;
-
+  color: #ffff;
+  font-size: 1.1rem;
 }
 
 .btnindex:hover{
@@ -81,3 +84,4 @@ select{
 
   width: 100%;
 }
+

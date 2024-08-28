@@ -1,4 +1,4 @@
-// App.tsx
+
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Table from "./tableapp/Table";
@@ -19,20 +19,20 @@ export default function App() {
         </Routes>
 
         {/* Mova a lógica para exibir o título baseado na filial */}
-        <FilialStatus />
+        {/* <FilialStatus /> */}
       </Router>
     </FilialProvider>
   );
 }
 
-const FilialStatus: React.FC = () => {
-  const { filial } = useFilial();
+// const FilialStatus: React.FC = () => {
+//   const { filial } = useFilial();
 
-  return (
-    <>
-      {filial === '1' && <Table />}
-      {filial === '3' && <Tabletls />}
-      {filial === '2' && <Tablecg />}
-    </>
-  );
-};
+//   return (
+//     <>
+//       {filial === '1' && <Table />}
+//       {filial === '3' && <Tabletls />}
+//       {filial === '2' && <Tablecg />}
+//     </>
+//   );
+// };

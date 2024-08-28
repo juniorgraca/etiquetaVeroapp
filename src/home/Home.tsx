@@ -1,4 +1,4 @@
-// Home.tsx
+
 import React from 'react';
 import "./Home.css";
 import veroLogo from "/verologo1.png";
@@ -27,6 +27,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='containetTxt'>
+        <p className='Welcometxt'>Bem-vindo(a)!
+        </p>
+        <p className='initalMsgSelec'>Escolha sua filial para gerar suas etiquetas</p>
+        <button className='btnindex'>Etiqueta média 2cm</button>
+        <button className='btnindex'>Etiqueta média Grande 4cm </button>
+        <p className='powertext'>Powered by Júnior Graça</p>
       </div>
     </>
   );
